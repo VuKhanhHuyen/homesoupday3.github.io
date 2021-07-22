@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: red;
+}
+.container1 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 2px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container1 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container1 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container1 {
+      text-align: center;
+  }
+  .container1 img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+</style>
+
+
+
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Load font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer {
+    position: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="homesoup1.html">
+  <img src="C:\Users\ASUS\Desktop\coding\images\down.png" width="80">
+  </a>
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="homesoup1.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="aboutsoup.html">About us </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contactus.html">Contact us</a>
+    </li>
+
+  <div class="form-line">
+  <input type="search" id="form1" class="form-control" placeholder="Search"
+  aria-label="Search" />
+  </div>
+
+  </nav>
+    <selection style="padding-top: 100px; padding-bottom: 160px;">
+  <br><br>
+
+<h1 style="text-align:center;color: darkred;"> ABOUT US </h1>
+ <div class="col 3 - md-3">
+<p class="card-text">We’ve been proudly making food for over 150 years. Our heritage is a testament to the iconic brands and delicious foods that our employees—past and present—created and continue to build upon today. Explore a few milestones along our journey.Joseph Campbell, a wholesale fruit and vegetable vendor, and Abraham Anderson, a commercial canner and packer, form the firm of Anderson & Campbell in Camden, New Jersey. This would one day become Campbell Soup Company</p>
+
+
+<h2 style="text-align:center">Meet The Team </h2>
+
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <img src="C:\Users\ASUS\Desktop\coding\images\pexels-irina-iriser-1800456.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Jane earned her Master of Science in industrial engineering and management from The University of Tokyo.</p>
+        <p>Jane@campbells.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>    
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+       <img src="C:\Users\ASUS\Desktop\coding\images\albert-dera-ILip77SbmOE-unsplash.jpg" alt="Gojo" style="width:100%"><div class="container">
+        <h2>Gojo Satoru</h2>
+        <p class="title">Senior Vice President and Chief Culture Officer</p>
+        <p>He serves on the board of the International Food and Nutritional Sciences organizationas well as the International Research Institute..</p>
+        <p>Satoru@campbells.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>    
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+       <img src="C:\Users\ASUS\Desktop\coding\images\karsten-winegeart-kWm6bXPJl4s-unsplash.jpg" alt="Toji" style="width:100%">
+       <div class="container">
+        <h2>Toji Fushiguro</h2>
+        <p class="title">Executive Vice President and President Campbell Snacks</p>
+        <p>Valerie earned her Bachelor of Arts in Economics and Accounting from Queens College.</p>
+        <p>Toji@campbells.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>    
+    </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <h2>Responsive Testimonials</h2>
+  <div class="container1">
+    <img src="C:\Users\ASUS\Desktop\coding\images\erik-mclean-2Wv9VnwzeeI-unsplash.jpg" alt="Avatar" style="width:90px">
+    <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>So cool . I like this .</p>
+  </div>
+
+  <div class="container1">
+    <img src="C:\Users\ASUS\Desktop\coding\images\filipp-romanovski-J8L-twLd67c-unsplash.jpg" alt="Avatar" style="width:90px">
+    <p><span>Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than Jane Doe.</p>
+  </div>
+
+<style>
+
+</style>
+
+
+<div class="footer">
+        <div style="margin-bottom: 25px;">
+          Copyright 2021.
+        </div>
+       <div class="icon-bar">
+          <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/?lang=vi" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.google.com/" class="google"><i class="fa fa-google"></i></a>
+          <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+  </style>
+
+</body>
+
+
+</html>
